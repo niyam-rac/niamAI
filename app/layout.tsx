@@ -13,7 +13,7 @@ export const metadata = {
       description: "Spend some time with me",
       images: [
         {
-          url: '/MET.png',
+          url: '/og.png',
           width: 1200,
           height: 630,
           alt: 'image',
