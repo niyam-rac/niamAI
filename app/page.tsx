@@ -37,7 +37,6 @@ export default function Chat() {
 
   return (
     <main className="flex flex-col items-center justify-between pb-40">
-     
       {messages.length > 0 ? (
         messages.map((message, i) => (
           <div
@@ -151,7 +150,7 @@ Ask me anything, I am fine tuned as Niyam
           </button>
         </form>
         <p className="text-center text-xs text-gray-400">
-  "Life is short. Smile while you still have teeth. Hahaha!"
+  "Life is short. Smile while you still have teeth. Hahaha!" V2
 </p>
       </div>
     </main>
