@@ -1,17 +1,17 @@
 "use client";
 
-import { useRef } from "react";
 import { useChat } from "ai/react";
 import clsx from "clsx";
+import Image from "next/image";
+import { useRef } from "react";
+import Textarea from "react-textarea-autosize";
 import {
-  VercelIcon,
   GithubIcon,
   LoadingCircle,
   SendIcon,
   UserIcon,
+  VercelIcon,
 } from "./icons";
-import Textarea from "react-textarea-autosize";
-import Image from "next/image";
 
 const examples = [
   "To be or not to be",
@@ -36,22 +36,7 @@ export default function Chat() {
 
   return (
     <main className="flex flex-col items-center justify-between pb-40">
-      <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
-        <a
-          href="https://vercel.com/templates/next.js/shooketh"
-          target="_blank"
-          className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
-        >
-          <VercelIcon />
-        </a>
-        <a
-          href="https://github.com/steven-tey/shooketh"
-          target="_blank"
-          className="rounded-lg p-2 transition-colors duration-200 hover:bg-stone-100 sm:bottom-auto"
-        >
-          <GithubIcon />
-        </a>
-      </div>
+     
       {messages.length > 0 ? (
         messages.map((message, i) => (
           <div
@@ -90,45 +75,17 @@ export default function Chat() {
         <div className="border-gray-200sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10">
             <Image
-              src="/shooketh.png"
+              src="/niam.png"
               alt="Shooketh"
               width={40}
               height={40}
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm Shooketh!
+              Hi, I'm AI Niam!
             </h1>
             <p className="text-gray-500">
-              I'm an AI bot built with the{" "}
-              <a
-                href="https://sdk.vercel.ai/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                Vercel AI SDK
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                fine-tuned
-              </a>{" "}
-              on Shakespeare's literary works.
-              <br />
-              <a
-                href="https://vercel.com/guides/fine-tuning-openai-nextjs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                Read the guide
-              </a>{" "}
-              on how you can build your own bot like me.
+Ask me anything, I am fine tuned as Niyam           
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">

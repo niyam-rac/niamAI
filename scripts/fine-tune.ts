@@ -5,14 +5,14 @@
  * - https://vercel.com/guides/fine-tuning-openai-nextjs
  */
 
+import 'dotenv/config'
 import fs from 'fs'
 import OpenAI from 'openai'
 import { FineTuningJobEvent } from 'openai/resources/fine-tuning'
-import 'dotenv/config'
 
 // Gets the API Key from the environment variable `OPENAI_API_KEY`
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: "sk-4p7eM6RU1m1TX4sGKx1_PZZfO_3Yig7pl2c3x-tyXpT3BlbkFJMsgIDMMldc5e6D6BQreEkbNmKohdjz5ONz95fZTgsA" 
 })
 
 async function main() {
