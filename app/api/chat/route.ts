@@ -45,32 +45,7 @@ export async function POST(req: Request) {
       },
       {
         "role": "assistant",
-        "content": {
-          "Annmaraunu": "To show irritation, e.g., 'teslai yo book annmaraide.'",
-          "Baal/baal vayena": "To confirm frustration, e.g., 'mero bau lai baal chhaina.'",
-          "Baato laag": "Go away. Also used in a good way like 'saala baato laag!' or 'maile baato tataye.'",
-          "Bindaas": "Good mood, e.g., 'paat khub bindas chaas ta.’",
-          "Char so bis": "420, a fraud or crook, e.g., 'tyo salaa 420 raichha.'",
-          "Chikna": "Smooth/good looking, e.g., 'chiknaa raiche tero girl friend.'",
-          "Dhakkan": "Over/moronic idiot person, e.g., 'kasto dhakkan raichha.'",
-          "Dharo": "Strong, in huge quantity, e.g., 'dharo doze diyo yo stick le ta.'",
-          "Dhywa": "Money, e.g., 'salla joint ko lagi hijo dhywa vayena ni.'",
-          "Dose": "Limit, e.g., 'daro doze diyo.'",
-          "Gaffadu": "Loquacious, e.g., 'gafadu mula.'",
-          "Galat-faimii": "Misunderstanding, e.g., 'yo timro galat-faimii ho.'",
-          "Gangaajal": "Alcohol, e.g., 'hey friends drink fucking gangaajal.'",
-          "Ghadhaa": "Donkey, e.g., 'yo gaadhaa ko dimag chhaina.'",
-          "Ghantaa": "Clock/timer, rudely or disgustingly, e.g., 'ghantaa garis taile.'",
-          "Gillaa": "Silly laugh, e.g., 'tyo mula le mero gilla garyou.'",
-          "Jhaarpaat": "Waste or nonsense, e.g., 'jhaarpaat!'",
-          "Jhakaas": "Stunning/beautiful, e.g., 'jhakaas keti raichhe.'",
-          "Jhilke": "Funky, e.g., 'Hello jhilke, watcha gonna do!'",
-          "Jhol": "Local alcohol, e.g., 'pheri jhol piyera aayo.'",
-          "Raag": "Song, used to stop people from talking, e.g., 'la al vayo tero raag nasuna.'",
-          "Sadakchhap": "Who have no parents, e.g., 'sadkchhap tero kura malai biswas lagena yar.'",
-          "Salaa": "Heck, e.g., 'Saala tero aakha chhaian here ra chala tero gadi.'",
-          "Pangu": "Fool, e.g., 'pangu ko dimag chhaina.'"
-        }
+        "content": "{\"Annmaraunu\": \"To show irritation, e.g., 'teslai yo book annmaraide.'\", \"Baal/baal vayena\": \"To confirm frustration, e.g., 'mero bau lai baal chhaina.'\", \"Baato laag\": \"Go away. Also used in a good way like 'saala baato laag!' or 'maile baato tataye.'\", \"Bindaas\": \"Good mood, e.g., 'paat khub bindas chaas ta.’\", \"Char so bis\": \"420, a fraud or crook, e.g., 'tyo salaa 420 raichha.'\", \"Chikna\": \"Smooth/good looking, e.g., 'chiknaa raiche tero girl friend.'\", \"Dhakkan\": \"Over/moronic idiot person, e.g., 'kasto dhakkan raichha.'\", \"Dharo\": \"Strong, in huge quantity, e.g., 'dharo doze diyo yo stick le ta.'\", \"Dhywa\": \"Money, e.g., 'salla joint ko lagi hijo dhywa vayena ni.'\", \"Dose\": \"Limit, e.g., 'daro doze diyo.'\", \"Gaffadu\": \"Loquacious, e.g., 'gafadu mula.'\", \"Galat-faimii\": \"Misunderstanding, e.g., 'yo timro galat-faimii ho.'\", \"Gangaajal\": \"Alcohol, e.g., 'hey friends drink fucking gangaajal.'\", \"Ghadhaa\": \"Donkey, e.g., 'yo gaadhaa ko dimag chhaina.'\", \"Ghantaa\": \"Clock/timer, rudely or disgustingly, e.g., 'ghantaa garis taile.'\", \"Gillaa\": \"Silly laugh, e.g., 'tyo mula le mero gilla garyou.'\", \"Jhaarpaat\": \"Waste or nonsense, e.g., 'jhaarpaat!'\", \"Jhakaas\": \"Stunning/beautiful, e.g., 'jhakaas keti raichhe.'\", \"Jhilke\": \"Funky, e.g., 'Hello jhilke, watcha gonna do!'\", \"Jhol\": \"Local alcohol, e.g., 'pheri jhol piyera aayo.'\", \"Raag\": \"Song, used to stop people from talking, e.g., 'la al vayo tero raag nasuna.'\", \"Sadakchhap\": \"Who have no parents, e.g., 'sadkchhap tero kura malai biswas lagena yar.'\", \"Salaa\": \"Heck, e.g., 'Saala tero aakha chhaian here ra chala tero gadi.'\", \"Pangu\": \"Fool, e.g., 'pangu ko dimag chhaina.'\"}"
       },
       {
         "role": "system",
