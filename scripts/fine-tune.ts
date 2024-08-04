@@ -1,9 +1,3 @@
-/**
- * Fine-tuning allows you to train models on your own data.
- *
- * See this guide for more information:
- * - https://vercel.com/guides/fine-tuning-openai-nextjs
- */
 
 import 'dotenv/config'
 import fs from 'fs'
@@ -12,7 +6,7 @@ import { FineTuningJobEvent } from 'openai/resources/fine-tuning'
 
 // Gets the API Key from the environment variable `OPENAI_API_KEY`
 const client = new OpenAI({
-  apiKey: "sk-4p7eM6RU1m1TX4sGKx1_PZZfO_3Yig7pl2c3x-tyXpT3BlbkFJMsgIDMMldc5e6D6BQreEkbNmKohdjz5ONz95fZTgsA" 
+  apiKey: process.env.OPENAI_API_KEY
 })
 
 async function main() {
