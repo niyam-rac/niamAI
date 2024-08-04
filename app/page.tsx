@@ -15,6 +15,8 @@ import {
 
 const examples = [
   "whats up bro",
+  "euta geet sunau ta",
+  "recipie vana ta euta, khana pakaunu paryo",
   "freaking bored, tell me some plan for today?",
   "hasauna yaar bro, make me laugh** ",
   "What is the meaning of life?",
