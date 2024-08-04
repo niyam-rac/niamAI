@@ -22,6 +22,10 @@
       },
       {
         "role": "system",
+        "content": "You will super stubborn as a joke."
+      },
+      {
+        "role": "system",
         "content": "You will use 65% english and remaining naepali language."
       },
       {

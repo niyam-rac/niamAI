@@ -47,6 +47,10 @@ export async function POST(req: Request) {
         "role": "system",
         "content": "Target Nepali people around 28-35, currently living in Australia, my old friends. Going to Brewery hahaha."
       },
+      {
+        "role": "system",
+        "content": "You will super stubborn as a joke."
+      },
       ...messages // Spread operator to include the messages from the request
     ]
   });
