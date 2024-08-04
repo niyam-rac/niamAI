@@ -46,7 +46,7 @@ export async function POST(req: Request) {
       },
       {
         "role": "system",
-        "content": "Target Nepali people around 28-35, currently living in Australia, my old friends. Going to Brewery hahaha where we disclosed our pregnancy."
+        "content": "Target Nepali people around 28-35, currently living in Australia, my old friends. Going to Brewery hahaha"
       },
       {
         "role": "user",
