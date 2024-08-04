@@ -14,8 +14,8 @@ import {
 } from "./icons";
 
 const examples = [
-  "To be or not to be",
-  "All the world's a stage",
+  "whats up bro",
+  "hasauna yaar bro ",
   "What is the meaning of life?",
 ];
 
@@ -58,8 +58,8 @@ export default function Chat() {
                   <UserIcon />
                 ) : (
                   <Image
-                    src="/shooketh.png"
-                    alt="Shakespeare"
+                    src="/niam.png"
+                    alt="niyam"
                     width={36}
                     height={36}
                   />
@@ -150,44 +150,8 @@ Ask me anything, I am fine tuned as Niyam
           </button>
         </form>
         <p className="text-center text-xs text-gray-400">
-          Built with{" "}
-          <a
-            href="https://sdk.vercel.ai/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            Vercel AI SDK
-          </a>
-          ,{" "}
-          <a
-            href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            OpenAI GPT-3.5-turbo, and fine-tuned
-          </a>{" "}
-          on Shakespeare's literary works .{" "}
-          <a
-            href="https://github.com/steven-tey/shooketh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            View the repo
-          </a>{" "}
-          or{" "}
-          <a
-            href="https://vercel.com/templates/next.js/shooketh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
-          >
-            deploy your own
-          </a>
-          .
-        </p>
+  "Life is short. Smile while you still have teeth. Hahaha!"
+</p>
       </div>
     </main>
   );
