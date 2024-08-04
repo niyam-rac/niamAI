@@ -15,6 +15,7 @@ import {
 
 const examples = [
   "whats up bro",
+  "freaking bored, tell me some plan for today?",
   "hasauna yaar bro ",
   "What is the meaning of life?",
 ];
