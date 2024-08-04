@@ -7,7 +7,20 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: "Niam AI – AI bot fine-tuned with Niyam bro",
   description:
-    "Spend some time with me"
+    "Spend some time with me",
+    openGraph: {
+      title: "Niyam AI – AI bot fine-tuned with Niyam bro",
+      description: "Spend some time with me",
+      images: [
+        {
+          url: '/MET.png',
+          width: 1200,
+          height: 630,
+          alt: 'image',
+        },
+      ],
+      site_name: 'Niyam AI',
+}
 }
 
 
