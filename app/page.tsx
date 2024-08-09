@@ -75,8 +75,8 @@ export default function Chat() {
           </div>
         ))
       ) : (
-        <div className="border-gray-700 sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full bg-gray-800">
-          <div className="flex flex-col space-y-4 p-7 sm:p-10">
+<div className="border-gray-700 sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full bg-gray-800" style={{ boxShadow: '0 0 10px #f916f0' }}>
+<div className="flex flex-col space-y-4 p-7 sm:p-10">
             <Image
               src="/niam.png"
               alt="Shooketh"
@@ -85,11 +85,10 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-white">
-              Hi, I'm AI Niam!
+              Hi! Rainbow’s feeling a bit jealous for u    🌈” ✨
             </h1>
             <p className="text-gray-400">
-              Ask me anything, I am fine-tuned as Niyam           
-            </p>
+            म तपाईंलाई रंगीन उत्तर दिनेछु!”         </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-700 bg-gray-900 p-7 sm:p-10">
             {examples.map((example, i) => (
