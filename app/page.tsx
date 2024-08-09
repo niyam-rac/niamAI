@@ -14,6 +14,7 @@ import {
 } from "./icons";
 
 const examples = [
+  "i need help",
   "whats up bro",
   "euta geet sunau ta",
   "recipie vana ta euta, khana pakaunu paryo",
