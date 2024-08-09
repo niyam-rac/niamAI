@@ -5,8 +5,9 @@ import OpenAI from 'openai'
 import { FineTuningJobEvent } from 'openai/resources/fine-tuning'
 
 const client = new OpenAI({
-  apiKey: "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"
+  apiKey: process.env.OPENAI_API_KEY
 })
+
 
 async function main() {
   console.log(`Uploading file`)
